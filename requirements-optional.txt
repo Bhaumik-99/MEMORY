@@ -1,0 +1,11 @@
+# Optional dependencies
+
+The skill works with Python standard library only.
+
+For better AST/symbol extraction, install:
+
+    pip install tree-sitter tree-sitter-language-pack
+
+Tree-sitter is optional. Without it, the indexer automatically falls back to lightweight language-aware extraction.
+
+No external API, vector database, or paid embedding service is required.

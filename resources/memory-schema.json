@@ -1,0 +1,20 @@
+{
+  "state_fields": [
+    "task",
+    "status",
+    "goal",
+    "relevant_files",
+    "relevant_symbols",
+    "recent_changes",
+    "decisions",
+    "known_issues",
+    "next_steps",
+    "tests"
+  ],
+  "sqlite_tables": [
+    "files",
+    "symbols",
+    "imports",
+    "references"
+  ]
+}

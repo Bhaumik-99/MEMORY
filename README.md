@@ -12,8 +12,8 @@ Copy this folder to:
 
 From the repository root:
 
-    python .agents/skills/repository-working-memory/scripts/init_memory.py --root .
-    python .agents/skills/repository-working-memory/scripts/index_repo.py --root .
+    python .agents/skills/MEMORY/scripts/init_memory.py --root .
+    python .agents/skills/MEMORY/scripts/index_repo.py --root .
 
 Optional AST upgrade:
 
@@ -21,21 +21,21 @@ Optional AST upgrade:
 
 Then re-index:
 
-    python .agents/skills/repository-working-memory/scripts/index_repo.py --root .
+    python .agents/skills/MEMORY/scripts/index_repo.py --root .
 
 ## Query
 
 Exact symbol:
 
-    python .agents/skills/repository-working-memory/scripts/query_repo.py --root . --symbol AuthService.login
+    python .agents/skills/MEMORY/scripts/query_repo.py --root . --symbol AuthService.login
 
 Semantic-style lexical search:
 
-    python .agents/skills/repository-working-memory/scripts/query_repo.py --root . --search "payment retry timeout"
+    python .agents/skills/MEMORY/scripts/query_repo.py --root . --search "payment retry timeout"
 
 Freshness:
 
-    python .agents/skills/repository-working-memory/scripts/check_stale.py --root .
+    python .agents/skills/MEMORY/scripts/check_stale.py --root .
 
 Update memory:
 
